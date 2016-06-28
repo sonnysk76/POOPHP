@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tiendas>
+	<tienda>
+		<num>01</num>
+		<calle>Av. Isabel la Católica no. 56.</calle>
+		<ciudad>Centro Histórico</ciudad>
+		<estado>Ciudad de México</estado>
+		<telefono>567876788</telefono>
+		<mapa>mapa01.png</mapa>
+	</tienda>
+	<tienda>
+		<num>02</num>
+		<calle>Av. Bellavista 68</calle>
+		<ciudad>Tlalnepantla</ciudad>
+		<estado>Estado de México</estado>
+		<telefono>567876788</telefono>
+		<mapa>mapa02.png</mapa>
+	</tienda>
+	<tienda>
+		<num>03</num>
+		<calle>Av. La Minerva 101</calle>
+		<ciudad>Guadalajara</ciudad>
+		<estado>Jalisco</estado>
+		<telefono>7273645352</telefono>
+		<mapa>mapa03.png</mapa>
+	</tienda>
+</tiendas>

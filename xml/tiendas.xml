@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tiendas>
+	<tienda>
+		<num></num>
+		<calle></calle>
+		<ciudad></ciudad>
+		<estado></estado>
+		<telefono></telefono>
+		<mapa></mapa>
+	</tienda>
+</tiendas>

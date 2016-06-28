@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE call-centers[
+	
+]>
+<oficinas>
+	<oficina>
+		<num>01</num>
+		<calle>Av. Isabel la Católica no. 100</calle>
+		<ciudad>Centro Histórico</ciudad>
+		<estado>Ciudad de México</estado>
+		<telefono>5647382911</telefono>
+		<mapa>mapa01.png</mapa>
+	</oficina>
+	<oficina>
+		<num>02</num>
+		<calle>Av. Gustavo Baz 500</calle>
+		<ciudad>Tlalnepantla</ciudad>
+		<estado>Estado de México</estado>
+		<telefono>56789098766</telefono>
+		<mapa>mapa02.png</mapa>
+	</oficina>
+	<oficina>
+		<num>03</num>
+		<calle>Av. Francisco I Madero 200</calle>
+		<ciudad>Guadalajara</ciudad>
+		<estado>Jalisco</estado>
+		<telefono>76543233145</telefono>
+		<mapa>mapa03.png</mapa>
+	</oficina>
+</oficinas>

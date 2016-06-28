@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE call-centers[
+	<!ELEMENT call-centers (call-center+)>
+	<!ELEMENT call-center (num, calle, ciudad, estado, telefono, mapa)>
+	<!ELEMENT num (#PCDATA)>
+	<!ELEMENT calle (#PCDATA)>
+	<!ELEMENT ciudad (#PCDATA)>
+	<!ELEMENT estado (#PCDATA)>
+	<!ELEMENT telefono (#PCDATA)>
+	<!ELEMENT mapa (#PCDATA)>
+]>
+<call-centers>
+	<call-center>
+		<num>01</num>
+		<calle>Av. Insurgentes Sur no. 600</calle>
+		<ciudad>Benito Juárez</ciudad>
+		<estado>Ciudad de México</estado>
+		<telefono>5647382911</telefono>
+		<mapa>mapa01.png</mapa>
+	</call-center>
+</call-centers>
