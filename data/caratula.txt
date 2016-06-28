@@ -1,0 +1,6 @@
+1*afrodita150x200.png*Afrodita*2000.00*Pintura
+2*ares150x200.png*Ares*3456.00*Escultura
+3*atenea150x200.png*Atenea*5647.00*Escultura
+4*hercules150x200.jpg*Hercules*9876.00*Escultura
+5*poseidon150x200.jpg*Poseidón*5666.00*Escultura
+6*zeus150x200.png*Zeus*7777.00*Litografía
