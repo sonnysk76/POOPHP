@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/***********************
+LOGIN (lo)
+************************/
+#lo-content{
+	height:960px;
+	background:white;
+}
+article{
+	width:600px;
+	margin:0 auto;
+	padding:60px;
+	background:white;
+}
+#lo-titulo{
+	background:gray;
+}

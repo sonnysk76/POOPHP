@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*****************
+CARRITO DE COMPRAS
+******************/
+#ca-content{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	background:white;
+}
+#ca-encabezado{
+	height:40px;	
+}
+#ca-mensaje{
+	padding-top:25px;
+	height:40px;
+	text-align:center;
+	color:green;	
+}
+#ca-datos{
+	height:140px;
+	text-align:left;
+	margin-left:350px;
+	padding-top:25px;	
+}
+#ca-detalle{
+	height:400px;	
+}
+.ca-precio, .ca-subtotal{
+	text-align:right;
+	vertical-align:top;
+	padding-top:10px;
+}
+.ca-cant{
+	text-align:center;
+	vertical-align:top;
+	padding-top:10px;
+}
+.ca-descripcion{
+	text-align:justify;
+	padding:5px 15px;	
+}
+th{ 
+	background-color:gray;
+	font-family: 'BebasNeueRegular';
+}
+td > img{ box-shadow:5px 5px 5px black;}
+	

@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/*******************
+PRODUCTO DESCRIPCION (pd)
+********************/
+@media only screen and (min-width:1024px){
+	#pd-content{
+		width:1000px;
+		height:100%;
+		margin:0 auto;
+	}
+	/*** CAJAS ***/
+	#pd-columnaIzq{
+		width:35%;
+		margin:0px;
+		height:800px;
+		float:left;
+	}
+	#pd-columnaCen{
+		width:35%;
+		margin:0px;
+		height:800px;
+		float:left;
+		text-align:justify;
+		padding:25px;
+	}
+	#pd-columnaDer{
+		width:20%;
+		margin:0px;
+		height:800px;
+		float:left;
+	}
+	/* Caja izquierda */
+	#pd-migas{
+		width:100%;
+		margin:0px;
+		height:20px;
+	}
+	/* Info tiene cuatro cajas: pd-cajas, pd-fotos, pd-marcas, pd-descripcion */
+	#pd-info{
+		width:100%;
+		margin:0px;
+		height:480px;
+	}
+	/* contiene la foto del producto */
+	#pd-fotos{
+		width:100%;
+		margin:0px;
+		height:440px;
+		float:left;
+	}
+	/* Son unas marcas misteriosas */
+	#pd-marcas{
+		clear:both;
+		width:100%;
+		margin:0px;
+		height:40px;
+		margin-bottom:10px;
+	}
+	/* Descripción del producto */
+	#pd-descripcion{
+		width:100%;
+		margin:0px;
+		height:300px;
+		text-align:justify;
+	}
+	/* Columna central */
+	#pd-encabezado{
+		width:100%;
+		margin:0px;
+		height:100px;
+	}
+	#pd-producto{
+		width:100%;
+		margin:0px;
+		height:700px;
+	}
+	
+	/* Columna izquierda */
+	#pd-carrito{
+		width:100%;
+		margin:25px 0 10px 0;
+		height:200px;
+		background:#999;
+		text-align:center;
+	}
+	.pd-accesorio{
+		width:100%;
+		height:160px;
+		background:white;
+		text-align:center;
+	}
+	button{
+		width:50%;
+		margin:10px 0;
+	}
+}
+/*Tabletas*/
+@media only screen and (min-width:681px) and (max-width:1024px){
+	#pd-content{
+		width:90%;
+		height:100%;
+		margin:0 auto;
+	}
+	/*** CAJAS ***/
+	#pd-columnaIzq{
+		width:35%;
+		margin:0px;
+		height:800px;
+		float:left;
+	}
+	#pd-columnaCen{
+		width:35%;
+		margin:0px;
+		height:800px;
+		float:left;
+		text-align:justify;
+		padding:25px;
+	}
+	#pd-columnaDer{
+		width:20%;
+		margin:0px;
+		height:800px;
+		float:left;
+	}
+	#pd-carrito{
+		width:100%;
+		height:200px;
+		background:#999;
+		text-align:center;
+		margin:25px 0 10px 0;
+	}
+	button{
+		width:100%;
+		height:40px;
+		margin:10px 0;
+	}
+	.pd-accesorio{ display:none; }
+	footer{ display:none; }
+}
+/* Telefono inteligente */
+@media only screen and (max-width:680px){
+	#pd-content{
+		width:90%;
+		height:100%;
+		margin:0 auto;
+	}
+	/*** CAJAS ***/
+	#pd-columnaIzq{
+		width:90%;
+		margin:0px;
+		height:auto;
+		/*float:left;*/
+	}
+	#pd-columnaCen{
+		width:90%;
+		margin:0px;
+		height:auto;
+		/*float:left;*/
+		text-align:justify;
+		padding-top:25px;
+	}
+	#pd-columnaDer{
+		width:90%;
+		margin:0px;
+		height:auto;
+		/*float:left;*/
+	}
+	#pd-carrito{
+		display:none;
+	}
+	.pd-accesorio{
+		display:none;
+	}
+	button{
+		width:100%;
+		height:40px;
+		margin:10px 0;
+	}
+	footer{ display:none; }
+}
+#pd-fotos{ box-shadow:5px 5px 5px black;}

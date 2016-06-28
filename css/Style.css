@@ -1,0 +1,223 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fuentes/Bebas-neue/BebasNeue-webfont.eot');
+    src: url('fuentes/Bebas-neue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fuentes/Bebas-neue/BebasNeue-webfont.woff') format('woff'),
+         url('fuentes/Bebas-neue/BebasNeue-webfont.ttf') format('truetype'),
+         url('fuentes/Bebas-neue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	margin:0; 
+	padding:0; 
+	background-image:url(../img/body.png); 
+	background-repeat:repeat;
+	font-family: Tahoma, Geneva, sans-serif;
+}	
+ul {margin: 0; padding: 0; list-style: none; display: block;}
+h1, h2, h3, h4, h5, h6, p{
+	margin:0;	
+	padding:0;
+}
+/* Encabezado */
+header {
+	height:115px; 
+	margin:0; 
+	padding:0; 
+	background-color:#FFF; 
+	background-image:url(../img/encabezado.png);
+	background-repeat:repeat-x; 
+}
+h3{
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.encabezado {
+	width:980px; 
+	height:115px; 
+	margin: 0 auto; 
+	padding:0px 22px;
+}
+/* encabezado 01 */
+.encabezado01 {
+	width: 980px; 
+	height:20px; 
+	margin:0; 
+	padding:0; 
+	text-align:right; 
+	text-transform: uppercase; 
+	font-size:11px; 
+	float: left;
+}		
+.encabezado01 .menu01{
+	width:100%; 
+	margin:0; 
+	padding: 0; 
+	list-style-type: none;
+}	
+.encabezado01 .menu01 li {display: inline;}
+.encabezado01 .menu01 li a {
+	padding-left:10px; 
+	padding-right:10px; 
+	line-height: 20px; 
+	border-left:solid 1px #999; 
+	color:#999; 
+	text-decoration: none; 
+	float:right; 
+}
+.encabezado01 .menu01 li a:hover {}
+
+/* encabezado 02 */
+.encabezado02 {
+	width:980px; 
+	height: 45px;	
+	margin:0;	
+	padding:0; 
+	float: left;
+}
+.encabezado02 .companias {width:550px; height:45px; margin:0; float: left;}
+.encabezado02 .companias .imagen {height:30px; margin:0; padding-top:7px; padding-bottom:8px; float:left;}
+.encabezado02 .companias .texto {height:11px; margin-left:20px; padding:17px 0px; color:#999;  text-transform: uppercase; font-size:8px;  font-weight:bold;  float: left;}
+.encabezado02 .bolsa {width:280px; height:45px; margin:0; color:#FFF; font-weight:bold; float: left;}
+.encabezado02 .bolsa .titulo {width:150px; height:45px; margin:0px; float:left; line-height:45px; font-size:12px; vertical-align:middle; text-align:center; font-weight:bold; color:#333333;}
+.encabezado02 .bolsa .imagen {width: 130px; height:45px; margin:0px; float: left; background-image:url(../img/bag.png); background-repeat:no-repeat;}
+.encabezado02 .bolsa .numero {width: 18px; height:15px; margin:0px; float: left; padding:15px 5px 15px 7px; line-height: 15px; vertical-align:middle; font-size:13px; text-align:right;}
+.encabezado02 .bolsa .texto {width: 86px; height:15px; margin:0px; float: left; padding:15px 7px 15px 7px; font-size:10px; line-height: 15px; vertical-align:middle;}
+.encabezado02 .telefonica {width: 130px; height:35px; margin:5px 0px 5px 20px; float: left; background-image:url(../img/telefonica.png); background-repeat:no-repeat;}
+/*****************/
+	
+/* encabezado 03 */
+.encabezado03 {width: 980px; height: 50px; margin:0px; padding:0px; float: left;  font-size:12px;  text-align:left;}	
+.encabezado03 .Menu { width:600px; height: 50px; list-style-type: none; padding:0px; margin: 0px; float: left; font-weight:bold;}	
+.encabezado03 .Menu li {display: inline;}
+.encabezado03 .Menu li a {line-height: 50px; margin-right:40px; text-decoration: none; float:left; color:#999;}
+.encabezado03 .Menu li a:hover {}
+.encabezado03 .Search {width: 300px; height:30px; float: left; margin:10px 40px; padding:0px; background-color:#FFF;}
+.encabezado03 .Search .texto {width: 250px; height:20px; margin:5px 10px; float: left;  line-height: 20px; vertical-align:middle; font-size:13px;}
+.encabezado03 .Search .Button {width: 30px; height:30px; margin:0px; float: left; padding:0; background-image:url(../img/search.png);}
+/***************/
+
+/* Contenido */
+section {
+	min-height:800px; 
+	margin:0px; 
+	padding:0px; 
+	background-color:#FFF;
+}
+.contenido { 
+	width: 980px; 
+	padding-left:22px; 
+	padding-right:22px; 
+	margin: 0 auto; 
+	font-size:11px; 
+	text-align:center; 
+}
+.contenido01 { 
+	width: 960px; 
+	height:300px; 
+	margin:0px; 
+	padding:10px 10px 5px 10px; 
+	float: left;
+	/*Animacion*/
+	animation-name: inicio;
+    animation-duration: 2s;
+	
+	-moz-animation-name: inicio;
+    -moz-animation-duration: 2s;
+	
+	-webkit-animation-name: inicio;
+    -webkit-animation-duration: 2s;
+}	
+.contenido02 { 
+	width: 960px; 
+	height:60px; 
+	margin:0px 10px; 
+	padding:0px; 
+	float: left; 
+	background-color:#CCCCCC;   
+}
+.contenido02 .Brand{
+	width:60px; 
+	height:60px; 
+	padding:0px; 
+	margin:0px;  
+	float: left; 
+}
+.contenido02 .Brand img{ 
+	padding:4px;  
+}
+
+/*** CAJAS DE PRODUCTOS ***/
+.contenido03 { 
+	width: 980px; 
+	min-height:425px; 
+	margin:0px; 
+	padding:0px; 
+	float: left; 
+	padding-top:15px; 
+}
+
+/*Productos*/
+.producto {width:150px; height:250px; float: left; margin-right:13px;}
+.foto {
+	width:150px; 
+	height:200px; 
+	margin:0px; 
+	padding:0px; 
+	float: left; 
+	border:solid 1px #999;
+}
+.descripcionA {width:150px; height:10px; line-height: 10px; margin:0px; padding:0px; float: left;}
+.descripcionB {width:150px; height:10px; line-height: 10px;  margin:0px; padding:0px; float: left; color:#346FA5; }
+.precio {width:75px; height:30px; line-height: 30px;  margin:0px; padding:0px; float: left; color:#993333; font-weight:bold;   }
+.compra {width:75px; height:30px; line-height: 30px; margin:0px; padding:0px; float: left;}
+
+/* Pie de página */
+footer {
+	height:255px; 
+	margin:0px; 
+	padding:0px;
+}
+.pie { 
+	width: 980px; 
+	padding-left:22px; 
+	padding-right:22px; 
+	height: 255px; 
+	margin: 0 auto; 
+	font-size:10px; 
+	font-weight:bold; 
+	color:#999; 
+	text-transform: uppercase; 
+	padding-top:10px; 
+}
+.pie01 { width: 980px; height:170px; margin:0px; padding:0px; float: left; }	
+.pie01 .columna { width: 196px; height:170px; margin:0px; padding:0px; float: left;}
+.pie01 .columnaTitulo { width: 188px; margin-top:8px; margin-bottom:8px; margin-right:8px; height:14px; line-height: 14px;  padding:0px; border-bottom:solid 1px #999;   }
+.pie01 .Menu {list-style-type: none; padding: 0; margin: 0; }	
+.pie01 .Menu li {display:block;}
+.pie01 .Menu li a { width: 196px; line-height: 28px; margin-right:40px; text-decoration: none; float:left; color:white; }
+.pie01 .Menu  li a:hover {}
+	
+.pie02 { width: 980px; height:85px; margin:0px; padding:0px; float: left; }
+/*** CLASES ***/
+.der{ text-align:right; }
+.rojo{ color:red; }
+.foto:hover{opacity:.75;}
+.pasos{text-align:center; padding-bottom:15px;}
+/********Animación******/
+@keyframes inicio {
+      from { opacity:0; }
+      to { opacity:1; }
+}
+@-webkit-keyframes inicio {
+      from { opacity:0; }
+      to { opacity:1; }
+}
+@-moz-keyframes inicio {
+      from { opacity:0; }
+      to { opacity:1; }
+}
+/********FIN DEL CODIGO*********/

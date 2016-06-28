@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/***********************
+Registro (ru)
+************************/
+article{
+	width:800px;
+	height:960px;
+	backgound-color:white;
+	margin:0 auto;	
+	padding:40px;
+}
+#ru-titulo{
+	height:40px;
+	color:black;
+	background-color:#ccc;	
+}

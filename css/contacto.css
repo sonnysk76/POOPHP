@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/***********************
+COMENTARIO (co)
+************************/
+article{
+	height:960px;
+	padding:40px;
+}
+#co-caja{
+	width:600px;
+	margin:0 auto;
+	background:white;
+}
+#co-titulo{
+	background:gray;
+}

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/***********************
+COMENTARIO (co)
+************************/
+/*Pantalla*/
+@media only screen and (min-width:769px){
+    article{
+		height:960px;
+		padding:40px;
+	}
+	#co-caja{
+		width:600px;
+		margin:0 auto;
+		background:white;
+	}
+	#co-titulo{
+		background:gray;
+	}
+	#av-texto p{ text-align:justify; padding:.5em;}
+}
+/*Tabletas*/
+@media only screen and (min-width:481px) and (max-width:768px){
+    article{
+   	 	width:100%;
+		margin:0 auto;
+		padding-top:20px;
+    }
+	#av-texto p{ text-align:justify; padding:.5em;}
+	#co-titulo{
+		background:blue;
+		color:white;
+	}
+	#co-caja{
+		width:90%;
+		margin:0 auto;
+		background:white;
+	}
+	footer{display:none;}
+}
+/* Telefono inteligente */
+@media only screen and (max-width:480px){
+    article{
+   	 	width:100%;
+		margin:0 auto;
+		padding-top:20px;
+    }
+	#av-texto p{ text-align:justify; padding:0;}
+	#co-titulo{
+		background:green;
+		color:yellow;
+	}
+	#co-caja{
+		width:90%;
+		margin:0 auto;
+		background:white;
+	}
+	footer{display:none;}
+}
